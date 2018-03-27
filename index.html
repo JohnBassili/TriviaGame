@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="javascript/app.js"></script>
+	<title>Trivia Game</title>
+
+</head>
+<body>
+
+	<h1>Total Trivial Trivia!</h1>
+
+
+    <h2>Time remaining:<h2>
+    <div id="wrapper">
+      <div id="display">00:00</div>
+      <!-- Div containing our timer controls -->
+      <div id="buttons">
+        <button id="start">Start</button>
+      
+    </div>
+    <br>
+
+ <form id = "quiz"  name = quiz">
+
+  <p>What was the first CGI movie?</p>
+
+<form>
+  <input type="radio" name="mc" value="question1" > A bugs life<br>
+  <input type="radio" name="mc" value="question1"> Monsters Inc<br>
+  <input type="radio" name="mc" value="question1"> Toy story<br>  
+  <input type="radio" name="mc" value="question1"> The lion king 
+</form> 
+
+
+<p>Which of these is not the name of the spice girls?</p>
+
+<form>
+  <input type="radio" name="mc" value="question2"> sporty spice<br>
+  <input type="radio" name="mc" value="question2"> Fred spice<br>
+  <input type="radio" name="mc" value="question2"> Scary spice<br>  
+  <input type="radio" name="mc" value="question2"> posh spice
+</form> 
+
+
+<p>Which NBA team won the most titles in the 90's?</p>
+
+<form>
+  <input type="radio" name="mc" value="question3" > NewYork Knicks<br>
+  <input type="radio" name="mc" value="question3"> Portland Trailblazers<br>
+  <input type="radio" name="mc" value="question3"> LA Lakers<br>  
+  <input type="radio" name="mc" value="question3"> Chicago Bulls
+</form>
+ <br>
+ 
+<input id = "button" type = "button" value = "Done!" onclick = "check();">
+
+<div id = "after submit">
+<p id = "number_correct"></p>
+</div>
+
+
+
+<!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Script -->
+	<script type="text/javascript" src="javascript/app.js"></script>
+
+	
+</body>
+</html>
